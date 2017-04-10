@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:checked="true"
+            android:icon="@drawable/ic_home_red_24dp"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+            android:title="@string/your_order" />
+    </group>
+
+    <item android:title="@string/buy_products">
+        <menu>
+            <item
+                android:id="@+id/buy_beans_here"
+                android:checked="true"
+                android:icon="@drawable/buy_beans_icon_655_281_v2"
+                android:title="@string/buy_beans" />
+            <item
+                android:id="@+id/buy_pod_here"
+                android:icon="@drawable/buy_pods_icon_655_281_v2"
+                android:title="@string/buy_pod" />
+            <item
+                android:id="@+id/pod_fundraising"
+                android:icon="@drawable/coffee_fundraising"
+                android:title="@string/pod_fundraising" />
+            <item
+                android:id="@+id/wholesale"
+                android:icon="@drawable/wholesale_button1"
+                android:title="@string/wholesale" />
+        </menu>
+    </item>
+
+    <item android:title="@string/account">
+        <menu>
+            <item
+                android:id="@+id/my_account"
+                android:icon="@drawable/ic_account_circle_red_24dp"
+                android:title="@string/my_account" />
+            <item
+                android:id="@+id/order_history"
+                android:icon="@drawable/ic_history_red_24dp"
+                android:title="@string/order_history" />
+        </menu>
+    </item>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/about_us"
+                android:icon="@drawable/ic_about"
+                android:title="@string/about_us" />
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/ic_phone_in_talk_red_24dp"
+                android:title="@string/contact_us" />
+        </menu>
+    </item>
+
+</menu>
